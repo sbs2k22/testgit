@@ -13,4 +13,9 @@ if "a" in name:
     print("a in available")
 else:
     print("Not present")    
-        
+name1 = input("Enter Your Name : ")
+age1 = int(input("Enter Your Age : ")) 
+if (name1[0] == "A" or name1[0] == "a") and age1>=25:
+    print("You Are Permitted")
+else:
+    print("Not Permitted")        
