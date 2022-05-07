@@ -8,3 +8,9 @@ elif 10<age<=60:
     print("Ticket Price 250")
 else:
     print("Ticket Price 200")
+name = "Sagar"
+if "a" in name:
+    print("a in available")
+else:
+    print("Not present")    
+        
